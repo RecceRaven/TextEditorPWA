@@ -18,7 +18,7 @@ export const putDb = async (content) => {
   const db = await openDB('jate', 1);
   const tx = db.transaction('jate', 'readwrite');
   const store = tx.objectStore('jate');
-  const request = store.put({ id: 1, value: content }); // Assuming a single item with a consistent ID
+  const request = store.put({ id: 1, value: content }); 
   const result = await request;
   console.log('Data saved to the database', result);
   return result;
@@ -30,10 +30,10 @@ export const getDb = async () => {
   const db = await openDB('jate', 1);
   const tx = db.transaction('jate', 'readonly');
   const store = tx.objectStore('jate');
-  const request = store.get(1); // Assuming you're always working with the same ID
+  const request = store.get(1);
   const result = await request;
   console.log('Data retrieved from the database', result);
-  return result?.value; // Return the value of the retrieved item
+  return result?.value; 
 };
 
 initdb();
