@@ -20,8 +20,7 @@ This application has been transformed from a web application to an PWA. After vi
 Installation of this app is made easy. Just click the install button when viewing the app from the deployed location provided below. 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+![texteditor](https://github.com/RecceRaven/TextEditorPWA/assets/149850541/0ac81074-9388-49fc-a867-aa3bbd9bb81f)
 
 ## Additional Resources
 
